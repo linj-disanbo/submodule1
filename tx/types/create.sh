@@ -1,1 +1,1 @@
-protoc --go_out=plugins=grpc:../types ./*.proto --proto_path=. 
+protoc --go_out=plugins=grpc:. ./*.proto --proto_path=. 
