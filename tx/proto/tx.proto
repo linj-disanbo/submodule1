@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package types;
+
+// Tx Transaction
+message Tx {
+    string exec = 1;
+    uint64 fee = 2;
+}
